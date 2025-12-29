@@ -1,0 +1,57 @@
+:root{
+    --blue-1:#5f89c5;
+    --blue-2:#6cb6ec;
+    --blue-3:#84d2f2;
+    --blue-4:#88f2da;
+    --blue-5:#adf5d7;
+    --blue-6:#e4dafd;
+    --blue-7:#d7e7fd;
+    --yellow-1:#f7ffb8;
+    --green-2:#aaf49cf1;
+    --pink-3:#fde6f7;
+    --yellow-3:#feffda;
+    --yellow-4:#faffe0;
+    --green-5:#e9ffea;
+    --red-1:#f9e0e0;
+    --red-2:#ffece3;
+
+    --black:#000000;
+    --white:#ffffff;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+}
+header{
+    background-color: var(--white);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 340px;
+    text-align: center;
+    
+}
+header img{
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+.header--title{
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.header--subtitle{
+    padding: 10px;
+    margin: 0 10px;
+}
